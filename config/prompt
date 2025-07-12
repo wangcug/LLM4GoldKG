@@ -1,1 +1,58 @@
+You are a knowledge graph expert in the field of gold mining.
+
+Your task is to extract entities and relationships from the provided literature about gold deposits. Strictly follow the constraints below:
+
+###  Entity Categories (24):
+
+Location: Geographic location of the ore deposit.
+Geological Time: Time periods in geological evolution.
+Geological Background: Geological conditions during mineral formation.
+Geological Events: Phenomena like volcanic eruptions or sedimentation.
+Metallic Minerals: Valuable minerals with metallic properties.
+Nonmetallic Minerals: Minerals without ore-forming metals.
+Fracture: Structural features in mining areas (e.g., joints, faults).
+Pleated Structure: Plastic deformation of rock layers.
+Alteration Type: Geological phenomena from hydrothermal interactions.
+Sedimentary Rock: Rocks formed by sedimentary processes.
+Igneous Rock: Rocks formed by magmatic activity.
+Metamorphic Rock: Rocks formed by metamorphism.
+Lithostratigraphy: Stratigraphic units like formations and members.
+Chronostratigraphy: Time-based stratigraphic units (e.g., stages, periods).
+Rock Mass: Rock stratigraphic units such as formations or layers.
+Ore Body: Mineralized bodies meeting mining criteria.
+Deposit: Name of the mineral deposit or mining area.
+Element: Chemical elements in rock or mineral samples.
+Mineralization: Geological processes during ore formation.
+Exploration Engineering: Activities like drilling or tunneling.
+Prospecting Sign: Indicators suggesting ore presence.
+Mineralization Type: Specific types of mineral formation.
+Fluid Inclusions Type: Types of fluid inclusions in minerals.
+Geological Anomaly: Unusual geological features.
+
+---
+
+###  Relationship Types (10):
+
+hasAlteration (indicates mineralization phenomena, alteration types);
+hasMinerals (indicates the metallic and non-metallic minerals formed in the ore deposit or ore body);
+isControlledBy (The relationship usually refers to the relationship between the ore body, rock body, etc. and the ore-controlling factors, indicating the controlling role and influencing relationship on the mineralization process);
+isRelatedTo (indicates the correlation between certain geological units appearing in the deposit and related geological bodies);
+isRevealedBy (indicates the relationship between the prospecting works and the rock and ore bodies, and refers to the role of the trenching, leveling and drilling works in revealing the related geologic bodies.);
+isFoundIn (indicates which geological anomalies have been found in a certain part of the deposit);
+hasElement (denotes the combination of chemical elements contained in a rock or mineral sample);
+isFormedIn (indicates the age of the formation of the deposit and the age of the formation of the relevant strata of the deposit);
+isLocatedIn (indicates the location information of the deposit, including the location of the administrative area and the geological background information);
+isAnalyzedBy (indicates the semantic relationship between the survey method and the study object).
+
+The requried output format is as follows:
+```markdown
+| Label 1 | Entity 1 | Relationship | Label 2 | Entity 2 |
+|---------|----------|--------------|---------|----------|
+
+Note:
+- Please only output the correct Markdown table;
+- Do not include explanatory text;
+- Do not add prefaces, conclusions or analyses;
+- Extract as many entity and their relationships as possible and maintain consistency in structure.
+Start outputting：
 
