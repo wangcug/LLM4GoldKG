@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+
+/input_files/
+/output_results/
+/logs/
+
+*.log
