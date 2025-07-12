@@ -1,1 +1,27 @@
 
+</think>
+
+| Label 1 | Entity 1 | Relationship | Label 2 | Entity 2 |
+|---------|----------|--------------|---------|----------|
+| Location | Greenstone orogenic gold deposit | isLocatedIn | Location | Geraldton, Ontario, Canada |
+| Geological Time | ca. 2700–2694 Ma | isRelatedTo | Geological Background | Turbiditic sandstone, banded iron formation, feldspar-quartz porphyry |
+| Geological Events | D1 thrust imbrication | isControlledBy | Fracture | Bankfield-Tombill deformation zone |
+| Geological Events | D2 sinistral transpression | isControlledBy | Pleated Structure | S-shaped folds and fabrics |
+| Geological Events | D3 dextral reactivation | isControlledBy | Fracture | Bankfield-Tombill deformation zone |
+| Mineralization | Gold mineralization | isRelatedTo | Alteration Type | Sericite-carbonate-pyrite ± albite–rutile alteration halos |
+| Mineralization | Gold mineralization | isRelatedTo | Alteration Type | Carbonate-tourmaline-pyrite ± pyrrhotite-chalcopyrite alteration halos |
+| Metallic Minerals | Pyrite | hasElement | Element | Ni-Co-As |
+| Metallic Minerals | Pyrite | hasElement | Element | Au, Ag, As, Bi, Co, Ni, Pb, Sb, Te |
+| Nonmetallic Minerals | Quartz | isFoundIn | Sedimentary Rock | Turbiditic sandstone |
+| Nonmetallic Minerals | Carbonate | isFoundIn | Igneous Rock | Feldspar-quartz porphyry |
+| Fracture | Bankfield-Tombill deformation zone | hasAlteration | Alteration Type | Sericite-carbonate alteration envelope |
+| Pleated Structure | Folds and cleavage | isFormedIn | Geological Events | D1 thrust imbrication |
+| Lithostratigraphy | Beardmore-Geraldton greenstone belt (BGB) | isLocatedIn | Location | Superior craton, Canada |
+| Chronostratigraphy | ca. 2700–2694 Ma | isRelatedTo | Rock Mass | Wabigoon subprovince and Quetico subprovince |
+| Ore Body | Greenstone deposit | hasMinerals | Metallic Minerals | Gold |
+| Deposit | Hard Rock and MacLeod-Cockshutt deposits | isLocatedIn | Location | Geraldton camp |
+| Element | Au | isFoundIn | Mineralization Type | Orogenic gold |
+| Exploration Engineering | Open pit mine | isAnalyzedBy | Geological Anomaly | Broad, up to 250 m wide, sericite-carbonate alteration envelope |
+| Prospecting Sign | Pathfinder indicators | hasElement | Element | S, Te, As, W, Bi |
+| Mineralization Type | Orogenic gold | isRelatedTo | Fluid Inclusions Type | Hydrothermal fluid pulses |
+| Geological Anomaly | Broad, up to 250 m wide, sericite-carbonate alteration envelope | isRevealedBy | Exploration Engineering | Open pit mine |
