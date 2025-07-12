@@ -1,1 +1,10 @@
+__pycache__/
+*.pyc
 
+doi_list.json
+papers/
+
+*.log
+
+.DS_Store
+Thumbs.db
