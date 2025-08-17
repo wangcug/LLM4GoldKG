@@ -59,8 +59,8 @@ geology_extractor/
 
 ```bash
 # Clone repository
-git clone https://github.com/wangcug/geology_extractor.git
-cd geology_extractor
+git clone https://github.com/wangcug/LLM4GoldKG.git
+cd LLM4GoldKG
 
 # Install dependencies
 chmod +x scripts/install_dependencies.sh
